@@ -115,6 +115,11 @@ ul > li {
     font-size: 1.5rem;
 }
 
+.contact-links{
+    text-decoration: none;
+    color: white;
+}
+
 .contact-links:hover {
     color: #985E6D;
 }
