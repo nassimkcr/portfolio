@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Nunito:ital,wght@1,300;1,900&family=Oxygen&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+
+</head>
+<body>
+
+    <header>
+        <div class="mytitle">
+            <h1>Nassim Kecira</h1>
+            <h4>Software Engineer</h4>
+        </div>
+        <nav>
+            <!--adding each link  the id of the html element that match with it -->
+            <a href="#intro">Introduction</a>
+            <a href="#about">About me</a>
+            <a href="#contact">Contact me</a>
+        </nav>
+    </header>
+
+    <!--creating the main container that contain the image and the descriptions-->
+    <main>
+        <img src="images/coding-img.jpg" id="image" alt="computer screen showing coding software in dark light">
+        
+        <hr>
+        <!-- creating three articles, each one has a distinct id, all of them share the same class-->
+        <article id="intro" class="main-boxes">
+            <h3>Introduction</h3>
+            <p>I'm Nassim , i'm 21 years old, i moved to the U.S from Algeria on november 2021.
+                i'm located now in Arlington,Virgina. </p>
+             <p>i'm studying software engineering at Thinkful and i hope i get a job in the field after i graduate. </p>
+        </article>
+       
+        <hr>
+        
+        <article id="about" class="main-boxes">
+            <h3>About me</h3>
+            <p>When i was a student in civil engineering college we had some computer science classes, i really enjoyed it and i discovered my passion for coding and solving problems, i also always enjoyed dealing with computers and high-tech in general. <br>
+                 i'm familiar with:
+            </p>
+           
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ol>
+
+            <p>Outside of web development i'm also a huge aviation enthusiast.</p>
+        </article>
+
+        <hr>
+        
+        <article id="contact" class="main-boxes">
+            <h3>Contact</h3>
+
+            <!--Adding target = "_blank" propriety  to make sure the link on another tab-->
+
+            <ul>
+                <li> <a target="_blank" href="https://www.linkedin.com/in/nassim-kecira-1928a915b/" class="contact-links">Linkedin</a></li>
+                <li> <a target="_blank" href="https://github.com/nassimkcr"  class="contact-links">Github</a></li>
+                <li><a target="_blank" href = "mailto:n.kecira@gmail.com"  class="contact-links">Email</a></li>
+            </ul>
+        </article>
+    </main>
+
+    <footer>
+        <p>Nassim Kecira 2022 &copy;</p>
+    </footer>
+    
+</body>
+</html>

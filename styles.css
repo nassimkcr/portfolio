@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #494E6B;
+    color: #f1f1f1;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+header{
+    width: 80%;
+    height: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+.mytitle{
+    padding-bottom: 10px;
+}
+
+.mytitle > h1 {
+ padding-bottom: 5px;
+ font-size: 90px;
+ font-family: 'Island Moments', cursive;
+
+}
+
+nav{
+height: 40%;
+padding-top: 20px;
+}
+
+nav > a {
+    margin-right: 100px;
+    background-color: #A9A9A9; 
+    color: white;   
+    border: 1px solid ;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border-color: #A9A9A9;
+    text-decoration: none;
+}
+
+/*Adding margin right to the introduction button in order to make the three buttons looks more centered( in accordance with main container below)*/
+
+nav > a:first-of-type{
+    margin-left: 90px;
+}
+
+
+nav > a:hover{
+    background-color: #98878F;
+    color: #985E6D;
+}
+
+main{
+    background-color: #192231;    
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+    padding-top: 2%;
+    text-align: center;
+    border-radius: 7px;
+
+}
+
+#image{
+    width: 80%;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+/*adding margin auto to the main boxes in order to center them, after setting a fixed width*/
+
+.main-boxes{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+hr{
+    margin-bottom: 30px;
+
+ }
+h3 {
+    padding-bottom: 50px;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+p{
+    margin-top: 30px;
+}
+
+/*making the bullets and the numbers inside the list , so that the list can be centered correctly */
+
+ol, ul{
+    list-style-position: inside;
+}
+
+a:visited{
+    color: #f1f1f1;
+}
+
+ul > li {
+    padding-top: 40px;
+    font-size: 1.5rem;
+}
+
+.contact-links:hover {
+    color: #985E6D;
+}
+
+
+
+footer{
+    text-align: center;
+    font-family: 'Island Moments', cursive;
+    font-size: 25px;
+
+}
