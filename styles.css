@@ -90,14 +90,20 @@ hr{
     margin-bottom: 30px;
 
  }
+
 h3 {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     font-size: 2rem;
     font-weight: 900;
 }
 
+#about > h3{
+    padding-bottom: 5px;
+} 
+
+
 p{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 /*making the bullets and the numbers inside the list , so that the list can be centered correctly */
